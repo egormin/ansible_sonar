@@ -1,0 +1,17 @@
+- name: JAVA
+  hosts: centos7-host
+
+  roles:
+  - java
+
+  #vars:
+  #  tomcat_version: '8.5.9'
+  #  java_version: '1.8.0'
+
+
+  #tasks:
+  #- name: Install the latest version of Java
+  #  yum:    
+  #    name: java
+  #    state: latest
+  #  become: yes

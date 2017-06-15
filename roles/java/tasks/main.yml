@@ -1,0 +1,45 @@
+#- name: ========== Downloading Java Ver. '{{java_version}}' ==========
+#  get_url:
+#    url: '{{java_download_uri}}'
+#    dest: '{{path_to_download}}/jdk-{{java_version}}-linux-x64.tar.gz'
+#    force: no
+#    headers: "Cookie: oraclelicense=accept-securebackup-cookie"
+
+#- name: ========== Add Sun java repository ========== 
+#  apt_repository: repo=ppa:webupd8team/java update_cache=yes state=present
+
+- name: ========== Java package copying ==========
+  copy:
+    src: jdk-{{java_version}}-linux-x64.tar.gz
+    dest: "{{path_to_download}}"
+    #owner: tomcat_as
+    #group: tomcat_as
+    #mode : a+x
+  #become: yes
+  #become_user: root 
+
+- name: ========== Java package unarchiving ==========
+  unarchive:
+    src: "{{path_to_download}}jdk-{{java_version}}-linux-x64.tar.gz"
+    dest: "{{java_home}}/jdk"
+    extra_opts: "--strip-components=1"
+    remote_src: yes
+    #list_files: yes
+  become: yes
+
+- name: XXX
+  shell: echo "Centosik"
+  when: ansible_os_family == 'RedHa'
+
+- name: correct java version selected
+  alternatives:
+    name: java
+    link: /usr/bin/java
+    path: /opt/jdk1.8.0_121/bin/java
+
+
+
+
+
+    #--no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" 
+#http://download.oracle.com/otn/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz

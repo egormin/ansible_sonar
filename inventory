@@ -1,0 +1,18 @@
+[centos-hosts]
+centos7-host ansible_host=192.168.33.110
+centos6-host ansible_host=192.168.33.130
+
+[debian-hosts]
+debian-host ansible_host=192.168.33.120
+
+
+[target-hosts:children]
+centos-hosts
+debian-hosts
+
+[target-hosts:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_port=22
+ansible_ssh_private_key_file=keys/id_rsa
+
