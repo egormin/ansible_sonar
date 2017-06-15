@@ -1,0 +1,12 @@
+- hosts: 
+  - centos7-host
+
+
+  pre_tasks:
+  - shell: echo 'Start'
+
+  #roles:
+  # - test
+
+  post_tasks:
+  - shell: echo 'Finish'
