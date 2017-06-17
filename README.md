@@ -1,3 +1,6 @@
-### Ansible playbook for Sonar installation
+*Ansible playbook for Sonar installation
 <br>
+---
+***Developer***: Yegor
+---
 <img src='pic/Task.jpg' />
