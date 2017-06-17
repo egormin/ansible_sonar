@@ -1,6 +1,6 @@
 |Feat. №|Descripton|Status|Planned Date|
 |---------|:---------|----|----|
-|***1***         |***Java installation***|
+|***1***         |       ***Java installation***|
 |1.1        |Java download| OK|20.06.2017|
 |1.2        |Java unarchiving| OK|20.06.2017|
 |1.3        |Adding Java to alternatives| OK|20.06.2017|
