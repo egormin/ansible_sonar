@@ -1,10 +1,9 @@
 [centos-hosts]
-#centos7-host ansible_host=192.168.33.110
 centos7-host ansible_host=192.168.138.10 ansible_user=root ansible_ssh_pass=egor
-#centos6-host ansible_host=192.168.33.130
+centos6-host ansible_host=192.168.138.11 ansible_user=root ansible_ssh_pass=egor
 
 [debian-hosts]
-debian-host ansible_host=192.168.33.120
+debian-host ansible_host=192.168.33.12 ansible_user=root ansible_ssh_pass=egor
 
 
 [target-hosts:children]
