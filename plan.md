@@ -1,8 +1,8 @@
 |Feat. №|Descripton|Status|Need improv.|Planned Date|чч|
 |---------|:---------|----|----|----|--|
 |***1***         |***Java installation***|
-|1.1        |Java download| |YES|17.06.2017|<img src='pic/1.jpg' />|
-|1.2        |Java unarchiving| |YES|17.06.2017|
+|1.1        |Java download| |YES|17.06.2017|<img src='pic/ok.jpg' />|
+|1.2        |Java unarchiving| |YES|17.06.2017|<img src='pic/nok.jpg' />|
 |1.3        |Adding Java to alternatives| |YES|17.06.2017|
 |1.4        |Check installed Java version| |YES|17.06.2017|
 |***2***          |***Postgres installation***|
