@@ -1,5 +1,4 @@
 Ansible playbook for Sonar installation
-
 ---
 
 ***Developer***: Yegor
