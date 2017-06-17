@@ -1,5 +1,5 @@
 |Feat. №|Descripton|Status|Need improvement|Planned Date|
-|---------|:---------|----|----|
+|---------|:---------|----|----|----|
 |***1***         |***Java installation***|
 |1.1        |Java download| OK|YES|20.06.2017|
 |1.2        |Java unarchiving| OK|YES|20.06.2017|
