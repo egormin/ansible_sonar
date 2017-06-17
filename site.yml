@@ -5,8 +5,13 @@
   pre_tasks:
   - shell: echo 'Start'
 
-  #roles:
-  # - test
+  tasks:
+  - name: Install the latest version of Java
+    yum:    
+      name: java
+      state: latest
+  #  become: yes
+  #  become_user: root 
 
   post_tasks:
   - shell: echo 'Finish'
