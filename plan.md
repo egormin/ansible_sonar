@@ -4,7 +4,7 @@
 |1.1        |Java download| OK |YES|17.06.2017|<img src='pic/ok.jpg' />|
 |1.2        |Java unarchiving| OK |YES|17.06.2017|<img src='pic/ok.jpg' />|
 |1.3        |Adding Java to alternatives| OK |YES|17.06.2017|<img src='pic/ok.jpg' />|
-|1.4        |Check installed Java version| OK |YES|17.06.2017||<img src='pic/ok-nok.jpg' />|
+|1.4        |Check installed Java version| OK |YES|17.06.2017|<img src='pic/ok-nok.jpg' />|
 |***2***          |***Postgres installation***|
 |2.1        |Postgres download| |YES|18.06.2017|<img src='pic/nok.jpg' />|
 |2.2        |Postgres unarchiving| |YES|18.06.2017|<img src='pic/nok.jpg' />|
