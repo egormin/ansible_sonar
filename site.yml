@@ -2,16 +2,12 @@
   - centos7-host
 
 
-  pre_tasks:
-  - shell: echo 'Start'
+#  pre_tasks:
+#  - shell: echo 'Start'
 
-  tasks:
-  - name: Install the latest version of Java
-    yum:    
-      name: java
-      state: latest
-  #  become: yes
-  #  become_user: root 
+  roles:
+  - java
+  - java_check
 
-  post_tasks:
-  - shell: echo 'Finish'
+#  post_tasks:
+#  - shell: echo 'Finish'

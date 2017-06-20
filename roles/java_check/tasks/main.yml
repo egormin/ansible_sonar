@@ -1,0 +1,6 @@
+- name: ========== Java version checking ==========
+  shell: java -version
+  register: result
+
+- name: 
+  debug: msg="{{result.stderr}}"
