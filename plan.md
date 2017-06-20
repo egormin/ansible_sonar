@@ -1,4 +1,4 @@
-|Feat. №|Descripton|Status|Need improv.|Planned Date|чч|
+|Feat. №|Descripton|Ready|Need improv.|Planned Date|State|
 |---------|:---------|----|----|----|--|
 |***1***         |***Java installation***|
 |1.1        |Java download| OK |YES|17.06.2017|<img src='pic/ok.jpg' />|
